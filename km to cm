@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int km,cm;
+	printf("enter the distance in cm",cm);
+	scanf("%d",&cm);
+	km=1/10^5*(cm);
+	printf("the distance in km is %d",km);
+	return 0;
+}
