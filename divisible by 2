@@ -1,0 +1,13 @@
+//check whether the number is divisible by 2or not
+#include <stdio.h>
+int main()
+{    
+int a; 
+printf("enter any number divisible :\n");
+scanf("%d",&a);
+if((a%2)==0)
+printf("enter number is  divisible by 2");
+else
+printf("enter number is not divisible by 2");
+    return 0;
+}
